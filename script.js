@@ -3,7 +3,10 @@ const checkboxElement = document.getElementById("divStyle");
 
 const textFields = document.getElementsByClassName("textfield");
 
-const buttonElement = document.querySelector("#myButton");
+const buttonElement = document.querySelector("#myButton"); /* Här hämtar vi button med querySelector.
+Vi valde querySelector eftersom  det är en modern och flexibel DOM funktion som även låter oss använda CSS selector och uppgift kraven var att vi skulle använda olika DOM metoder.*/
+
+
 
 const divElement = document.getElementsByTagName("div")[1];
 

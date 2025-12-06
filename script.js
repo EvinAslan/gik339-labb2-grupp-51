@@ -14,12 +14,12 @@ const divElement = document.getElementsByTagName("div")[1];
 //Uppgift 5//
 
 function handleInput(e) {
-    console.log(e.traget);
+    console.log(e.target);
 
     const fieldName = e.target.name;
 
     if (fieldName === "content") {
-        boxElement.innerHTML = e.target.value;
+        divElement.innerHTML = e.target.value;
     }
 
 }
@@ -28,7 +28,7 @@ function handleInput(e) {
 checkboxElement.addEventListener("change", function(){
     if (!colorField) return;
     const chosenColor = colorField.value;
-    boxElement.style.backgroundColor = chosenColor;
+    divElement.style.backgroundColor = chosenColor;
 
 });
 
@@ -40,7 +40,7 @@ for (let field of textFields){
 
 
 buttonElement.addEventListener("click", function(){
-    boxElement.remove();
+    divElement.remove();
 });
 
 

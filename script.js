@@ -49,6 +49,6 @@ buttonElement.addEventListener("click", function(){
 /*Vi har använt generativ AI som stöd under arbetet som Felsöka och förstå felmeddelanden i webbläsarens Console. 
 Vi har fått stöd med att strukturera presentationen till videon.
 Vi har fått hjälp genom att cheka om vår kod uppfyller alla upggiftens krav i fall om vi hade missat något. 
-Vi har även fått hjälp att dubbel kolla om vi har tolkat labben rätt
-om man ska exempel så kan vi ge så här; jag har en checkbox i HTML med id='divStyle' men min bakgrundsfärg ändras inte. 
-Här är min kod. Vad gör jag för fel?*/
+Vi har även fått hjälp att dubbel kolla om vi har tolkat labben rätt. Vi har fått hjälp att hitta rätt färg för vår sida.
+Om man ska exempel så kan vi ge så här; jag har en checkbox i HTML med id='divStyle' men min bakgrundsfärg ändras inte. 
+Här är min kod. Vad gör jag för fel? */

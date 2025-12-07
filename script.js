@@ -46,5 +46,7 @@ buttonElement.addEventListener("click", function(){
 });
 
 
-/*Vi har använt generativ AI som stöd under arbetet som Felsöka och förstå felmeddelanden i webbläsarens Console. Vi har fått stöd med att strukturera presentationen till videon.
-Vi har fått hjälp genom att cheka om vår kod uppfyller alla upggiftens krav i fall om vi hade missat något. Vi har även fått hjälp att dubbel kolla om vi har tolkat labben rätt*/
+/*Vi har använt generativ AI som stöd under arbetet som Felsöka och förstå felmeddelanden i webbläsarens Console. 
+Vi har fått stöd med att strukturera presentationen till videon.
+Vi har fått hjälp genom att cheka om vår kod uppfyller alla upggiftens krav i fall om vi hade missat något. 
+Vi har även fått hjälp att dubbel kolla om vi har tolkat labben rätt*/

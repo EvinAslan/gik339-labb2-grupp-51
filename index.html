@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="sv">
-    
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Labb2_Grupp51t</title>
+    <title>Labb 2 Grupp 51</title>
 </head>
 
 <body style="background-color:rgb(5, 5, 50); color: aliceblue; font-family:Arial, Helvetica, sans-serif;">
+    <!--Rubrik för sidan -->
     <h1 style="text-align: center; font-size:1.5rem; ">Labb 2 - Grupp 51 </h1>
+    <!--Ytrre container box för formuläret och div rutan-->
   <div class="box"  style="background-color:rgb(241, 237, 237); width:33rem; margin:1rem auto; border-radius:0.5rem; color: black; font-size:1rem; padding:2rem;">
-     <label for = "color">Färg</label>
-     <input type="text" name="color" id="color" class="textfield" style="width: 300px; height: 25px; margin-bottom: 10px;">
-     <br>
-     <label for="content">Innehåll</label>
-     <input type="text" name="content" id="content" class="textfield" style="width: 300px; height: 25px; margin-bottom: 10px;">
-     <br>
-     <label for="divStyle">Stil på box</label>
-     <input type="checkbox" name="divStyle" id="divStyle" class="checkbox" style="width: 300px; height: 25px; margin-bottom: 10px;">
-     <br>
-     <button id="myButton">Ta bort </button>
-     <br><br>
-     <div id="myBox" class="box" style="border-color:black; border-style:solid;">Div som egentligen ska vara tom</div>
+    <!--Textfält där vi skriver in färg till boxen-->
+        <label for = "color">Färg</label>
+        <input type="text" name="color" id="color" class="textfield" style="width: 300px; height: 25px; margin-bottom: 10px;">
+        <br>
+        <!--Textfält där vi skriver innehåll som ska i boxen-->
+        <label for="content">Innehåll</label>
+        <input type="text" name="content" id="content" class="textfield" style="width: 300px; height: 25px; margin-bottom: 10px;">
+        <br>
+        <!--Checkbox som styr om boxens stil ska ändras-->
+        <label for="divStyle">Stil på box</label>
+        <input type="checkbox" name="divStyle" id="divStyle" class="checkbox" style="width: 300px; height: 25px; margin-bottom: 10px;">
+        <br>
+        <!--Knapp som ska ta bort från sidan när man klickar-->
+        <button id="myButton">Ta bort </button>
+        <br><br>
+        <!--Div element som ska få ändrad färg och innehåll via JavaScript-->
+        <div id="myBox" class="box" style="border-color:black; border-style:solid;">Div som egentligen ska vara tom</div>
+        <!--Länk till JavaScript fil med all logik-->
+        <script src="script.js"></script>
   </div>
-  <script src="script.js"></script>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
 
